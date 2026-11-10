@@ -102,3 +102,6 @@ Some figures were finished by hand after export (panel letters, legend position,
 ## Contact
 
 Haipeng Zhao
+
+- hzhao1992rm@gmail.com (permanent)
+- hzhao395@gatech.edu
