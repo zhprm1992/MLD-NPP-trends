@@ -71,7 +71,7 @@ Figure numbers follow the revised manuscript (second revision). Extended Data fi
 | Extended Data Fig. 2 | `Extended_data_figures/ExtendedDataFig2_CAFE_latitude_season_trends` | `f2_plot_combine_NPP_{nemo,ecco,hycom}.m` |
 | Extended Data Figs. 3, 4 | `Extended_data_figures/ExtendedDataFig3_4_nitracline_distance` | `map_nitracline_mld_pacific_pc_tall.m` (Fig. 3), `plot_nitracline_par_mld_climatology_range_combined_v3.m` (Fig. 4) |
 | Extended Data Fig. 5 | `Extended_data_figures/ExtendedDataFig5_Argo_sub_vs_full_sampled` | `fs4_lat_mld_sub_fully.m` |
-| Extended Data Fig. 6, Supplementary Tables 3-6 | `Extended_data_figures/ExtendedDataFig6_SuppTables3-6_MLD_validation` | `scatterMLD_ARGOvsModels_point_season.m` (tables), `s_table1to4.m` (highlighting), `spiderplot_v3.m` (Extended Data Fig. 6) |
+| Extended Data Fig. 6, Supplementary Tables 2-5 | `Extended_data_figures/ExtendedDataFig6_SuppTables2-5_MLD_validation` | `scatterMLD_ARGOvsModels_point_season.m` (tables), `s_table1to4.m` (highlighting), `spiderplot_v3.m` (Extended Data Fig. 6) |
 | Extended Data Fig. 7 | `Extended_data_figures/ExtendedDataFig7_PE_curve` | `compute_par_mld_mldonly.m`, `fig_pe_final_markers_ownmld_v2.py` |
 | Extended Data Fig. 8 | `Extended_data_figures/ExtendedDataFig8_grid_cell_scatter` | `compute_grid_seasonal_trends.m`, `plot_grid_mld_npp_nemo_dscatter_v5.m` |
 | Extended Data Fig. 9 | `Extended_data_figures/ExtendedDataFig9_biome_sensitivity` | `compute_grid_monthly_trends.m`, `compute_biome_sensitivity.m`, `plot_biome_sensitivity_iqr('sig005')` |
@@ -80,7 +80,7 @@ Figure numbers follow the revised manuscript (second revision). Extended Data fi
 | Supplementary Figs. 1, 2 | `Supplementary_information/SuppFig1_2_MLD_threshold_0.125` | `plot_mldLat_trend_comparison_d125_vs_003_seasonal.m`, `f4_plot_sensitivity_NPP_MLD_d125_vs_003.m` |
 | Supplementary Figs. 3-5 | `Supplementary_information/SuppFig3_4_5_ensemble_NPP` | `fs3_plot_sensitivity_NPP_MLD_ensemble.m`, `plot_grid_mld_npp_nemo_ensemble_dscatter_v5.m`, `plot_biome_sensitivity_iqr_ensemble('sig005')` |
 | Supplementary Fig. 6 | `Supplementary_information/SuppFig6_CAFE_month_latitude_trends` | `heatmap_monthlyNPPtrends_ot.m` |
-| Supplementary Table 2 | none (literature comparison) | |
+| Supplementary Table 6 | none (literature comparison) | |
 | First response, Figs. R1, R2 | `Response_letter_round1/FigR1_R2_phytoplankton_carbon` | `f4_plot_sensitivity_Carbon_MLD.m`, `LAT_vs_carbon_mkTrends_allSeasons_nemo.m` |
 | First response, Figs. R3-R10 | same as Supplementary Figs. 1-3 and Extended Data Figs. 3, 4, 7, 8 and 9 | |
 | First response, Fig. R11 | `Response_letter_round1/FigR11_BATS_HOT_distance` | `fig_nitracline_mld_distance_bats_hot.py` |

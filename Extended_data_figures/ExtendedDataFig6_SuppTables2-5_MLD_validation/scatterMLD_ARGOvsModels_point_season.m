@@ -1,4 +1,4 @@
-% Used for: Supplementary Tables 3-6 (grid-by-grid metrics per season and year, written to model_error_tables.xlsx) and the inputs of Extended Data Fig. 6
+% Used for: Supplementary Tables 2-5 (grid-by-grid metrics per season and year, written to model_error_tables.xlsx) and the inputs of Extended Data Fig. 6
 % Original: Code\scatterMLD_ARGOvsModels_point_season.m (data paths updated to I:\Prj; computation unchanged)
 % Validate for each season per year
 % Haipeng Zhao

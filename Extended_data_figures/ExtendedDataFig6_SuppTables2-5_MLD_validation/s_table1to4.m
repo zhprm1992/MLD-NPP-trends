@@ -1,4 +1,4 @@
-% Used for: Supplementary Tables 3-6: product closest to slope 1 in each row (highlighting); run after scatterMLD_ARGOvsModels_point_season.m
+% Used for: Supplementary Tables 2-5: product closest to slope 1 in each row (highlighting); run after scatterMLD_ARGOvsModels_point_season.m
 % Original: Code\s_table1to4.m (data paths updated to I:\Prj; computation unchanged)
 % Used for S. table 1 - 4 in supplementary materials 
 % Run this script: scatterMLD_ARGOvsModels_point_season.m
