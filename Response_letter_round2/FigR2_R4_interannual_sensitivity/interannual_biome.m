@@ -1,4 +1,4 @@
-% Used for: interannual GLMM by biome on the Fig. S8a samples (Fig. R4)
+% Used for: interannual GLMM by biome on the Extended Data Fig. 9a samples (Fig. R4)
 % Original: Manuscript\MLD\manuscript\nature\NCC\R2\code for revision\interannual_biome\interannual_biome.m (data paths updated to I:\Prj; computation unchanged)
 % interannual_biome.m
 % Biome version of the interannual analysis (HZ 2026-11-05, see revision_log_R2.md), on the Fig. S8a samples:
@@ -15,7 +15,7 @@ sfx = ''; if strcmp(TR, 'pct'), sfx = '_pct'; end
 tf = @(v) log(v); if strcmp(TR, 'pct'), tf = @(v) (v - mean(v)) / mean(v) * 100; end
 diary(fullfile(OUT, ['interannual_biome' sfx '_log.txt'])); diary on
 fprintf('Start %s, transform %s\n', datestr(now), TR);
-R1B = fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'FigS8_biome_sensitivity');
+R1B = fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'ExtendedDataFig9_biome_sensitivity');
 pthr = 0.05; YEARS = 2003:2022; NY = 20;
 mmN = [3 4 5; 6 7 8; 9 10 11; 12 1 2];  mmS = [9 10 11; 12 1 2; 3 4 5; 6 7 8];
 seasName = {'Spring','Summer','Autumn','Winter'};

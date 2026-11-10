@@ -1,4 +1,4 @@
-% Used for: annual latitudinal aph(443), apLat_annual.mat (Fig. S1)
+% Used for: annual latitudinal aph(443), apLat_annual.mat (Extended Data Fig. 1)
 % Original: Code\npp_cafe\latAP_annual_ot.m (data paths updated to I:\Prj; computation unchanged)
 % Calculate positive and latitudinal mean, input is monthly data splited by
 % in biome.

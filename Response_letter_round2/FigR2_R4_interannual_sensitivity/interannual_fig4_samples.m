@@ -27,7 +27,7 @@ bandName = {'40-60N','20-40N','0-20N','0-20S','20-40S','40-60S'};
 src = {'CbPM', fullfile(fileparts(fileparts(OUT)), '4_trends_and_sensitivity', 'NPPtrends.mat'),                 'I:\Prj\npp_cbpm_1M_1dg_zno3mMU\nppLat_monthly_nemo.mat';
        'VGPM', 'I:\Prj\npp_vgpm_1M_1dg\VGPM_NPPtrends.mat', ...
                                                                        'I:\Prj\npp_vgpm_1M_1dg\nppLat_monthly_vgpm.mat';
-       'CAFE', fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'FigS3_CAFE_month_latitude_trends', 'CAFE_NPPtrends.mat'), 'I:\Prj\npp_cafe_1M_1dg\nppLat_monthly_nemo.mat'};
+       'CAFE', fullfile(fileparts(fileparts(OUT)), 'Supplementary_information', 'SuppFig6_CAFE_month_latitude_trends', 'CAFE_NPPtrends.mat'), 'I:\Prj\npp_cafe_1M_1dg\nppLat_monthly_nemo.mat'};
 mldFile = 'I:\Prj\MLD_1M_NEMO\mldLat_monthly_nemo.mat';
 haveI = isfile(mldFile);
 if ~haveI, fprintf('I:\\Prj not available: sample counts only.\n'); end

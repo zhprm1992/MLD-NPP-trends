@@ -1,4 +1,4 @@
-% Used for: colour mapping of bars by R2 (Figs. 2, 3, 5, S1, S2, S4; letter figures)
+% Used for: colour mapping of bars by R2 (Figs. 2, 3 and 5, Extended Data Figs. 1, 2 and 5; letter figures)
 % Original: Code\vals2colormap_v2.m (data paths updated to I:\Prj; computation unchanged)
 function rgb = vals2colormap_v2(vals, colormap, num, crange)
 % Take in a vector of N values and return and return a Nx3 matrix of RGB

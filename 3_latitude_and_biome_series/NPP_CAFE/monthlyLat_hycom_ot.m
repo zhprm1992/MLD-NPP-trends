@@ -1,4 +1,4 @@
-% Used for: monthly latitudinal NPP-CAFE with MLD-HYCOM (Fig. S3)
+% Used for: monthly latitudinal NPP-CAFE with MLD-HYCOM (Supplementary Fig. 6)
 % Original: Code\npp_cafe\monthlyLat_hycom_ot.m (data paths updated to I:\Prj; computation unchanged)
 % Output  latitudinal averaged nppa across the global ocean
 % Haipeng Zhao 

@@ -9,7 +9,7 @@
 % READ ONLY on inputs. Haipeng Zhao / Claude, 2026-11-07 (R2)
 clear; close all; OUT = fileparts(mfilename('fullpath'));
 load(fullfile(OUT, 'plot_distance_r9style_range.mat'), 'Zc', 'lat');
-R1G = fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'FigS7_grid_cell_scatter');
+R1G = fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'ExtendedDataFig8_grid_cell_scatter');
 mk = load(fullfile(R1G, 'topo_biome_mask_nemo.mat'), 'valid_lonlat'); mask = logical(mk.valid_lonlat)';
 dn = load('I:\Prj\WOA23\nitracline\zno3_woa23_3muM_nofix.mat'); zno3 = double(dn.zno3(:, [181:360, 1:180], :));
 assert(isequal(double(dn.lat(:)), lat))

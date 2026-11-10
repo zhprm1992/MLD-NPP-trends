@@ -1,4 +1,4 @@
-% Used for: seasonal latitudinal NPP-CAFE, nppLat_season_<product>.mat (Fig. S2); run once per MLD product (PATH_IN, FILENAME_OT)
+% Used for: seasonal latitudinal NPP-CAFE, nppLat_season_<product>.mat (Extended Data Fig. 2); run once per MLD product (PATH_IN, FILENAME_OT)
 % Original: Code\npp_cafe\seasonLat_ot.m (data paths updated to I:\Prj; computation unchanged)
 % Output seasonal latitudinal average
 % Haipeng Zhao

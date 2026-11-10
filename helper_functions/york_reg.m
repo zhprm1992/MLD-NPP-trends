@@ -1,4 +1,4 @@
-% Used for: York regression used in Fig. S7 and SI Fig. S4
+% Used for: York regression used in Extended Data Fig. 8 and Supplementary Fig. 4
 % Original: Manuscript\MLD\manuscript\nature\NCC\R1\code for revision\mld_npp_relationship_grid\york_reg.m (data paths updated to I:\Prj; computation unchanged)
 function [a,b,sa,sb] = york_reg(X,Y,sX,sY)
 % YORK_REG  York (1966) bivariate weighted-errors-in-both-variables regression.

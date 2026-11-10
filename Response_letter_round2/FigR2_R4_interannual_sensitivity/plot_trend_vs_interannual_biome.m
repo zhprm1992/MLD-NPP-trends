@@ -8,7 +8,7 @@
 % Both rows x axis -4 to 4 (as 03b). Check: CbPM top-row medians vs R1 senMLD_biome_nemo_sig005.mat.
 % READ ONLY on inputs. Haipeng Zhao / Claude, 2026-11-08 (R2)
 clear; clc; OUT = fileparts(mfilename('fullpath'));
-R1B = fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'FigS8_biome_sensitivity');
+R1B = fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'ExtendedDataFig9_biome_sensitivity');
 load(fullfile(OUT, 'interannual_biome_pct.mat'), 'Tab', 'SAMP', 'biomes', 'seasName');
 Tr = load(fullfile(R1B, 'grid_monthly_trends_mld_npp_nemo.mat'), 'npp_trend_pct', 'mld_trend_pct');
 Tv = load(fullfile(OUT, 'grid_monthly_trends_npp_vgpm_cafe.mat'), 'vgpm_trend_pct', 'cafe_trend_pct');

@@ -1,4 +1,4 @@
-% Used for: monthly latitudinal NPP-CbPM with MLD-ECCO (Fig. 4, Fig. S6)
+% Used for: monthly latitudinal NPP-CbPM with MLD-ECCO (Fig. 4, Extended Data Fig. 10)
 % Original: Code\npp_cbpm\monthlyLat_ecco_ot.m (data paths updated to I:\Prj; computation unchanged)
 % Output  latitudinal averaged nppa across the global ocean
 % Haipeng Zhao 

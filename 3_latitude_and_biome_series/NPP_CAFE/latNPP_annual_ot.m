@@ -1,4 +1,4 @@
-% Used for: annual latitudinal NPP-CAFE, nppLat_annual_<product>.mat (Fig. S1); run once per MLD product
+% Used for: annual latitudinal NPP-CAFE, nppLat_annual_<product>.mat (Extended Data Fig. 1); run once per MLD product
 % Original: Code\npp_cafe\latNPP_annual_ot.m (data paths updated to I:\Prj; computation unchanged)
 % Calculate positive and latitudinal mean, input is monthly data splited by
 % in biome.

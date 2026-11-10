@@ -14,7 +14,7 @@
 
 clear; close all; clc;
 OUT = fileparts(mfilename('fullpath'));
-R1G = fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'FigS7_grid_cell_scatter');
+R1G = fullfile(fileparts(fileparts(OUT)), 'Extended_data_figures', 'ExtendedDataFig8_grid_cell_scatter');
 diary(fullfile(OUT, 'plot_distance_r9style_range_log.txt')); diary on
 seasName = {'Spring','Summer','Autumn','Winter'};
 season_colors = [0.784 0.498 0.000; 0.000 0.620 0.451; 0.30 0.30 0.30; 0.000 0.447 0.698];   % as R9

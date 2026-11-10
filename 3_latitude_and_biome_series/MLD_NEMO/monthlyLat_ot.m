@@ -1,4 +1,4 @@
-% Used for: monthly latitudinal MLD-NEMO, mldLat_monthly_nemo.mat (Fig. 4, Fig. S6)
+% Used for: monthly latitudinal MLD-NEMO, mldLat_monthly_nemo.mat (Fig. 4, Extended Data Fig. 10)
 % Original: Code\mld_NEMO\monthlyLat_ot.m (data paths updated to I:\Prj; computation unchanged)
 % Output  latitudinal averaged mlda across the global ocean
 % Haipeng Zhao 

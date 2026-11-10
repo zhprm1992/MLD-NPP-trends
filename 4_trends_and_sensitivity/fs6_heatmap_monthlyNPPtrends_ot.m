@@ -1,4 +1,4 @@
-% Used for: trends per latitude row and month, NPPtrends.mat (Fig. 4) and Fig. S6; the save line at the end is switched on
+% Used for: trends per latitude row and month, NPPtrends.mat (Fig. 4) and Extended Data Fig. 10; the save line at the end is switched on
 % Original: Code\npp_cbpm\fs6_heatmap_monthlyNPPtrends_ot.m (data paths updated to I:\Prj; computation unchanged)
 % lot heat-map latitudinal trends of chl and four drivers (60s-60n) vs Month, 
 % Haipeng Zhao
