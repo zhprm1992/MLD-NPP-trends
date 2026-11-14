@@ -1,4 +1,4 @@
-% Used for: round-2 letter Fig. R4
+% Used for: counts quoted in the round-2 letter reply on Fig. R4 (interannual weaker than trend-based sensitivity in 40, 55 and 55 of the 56 biome-seasons); its figure is the earlier version of Fig. R4
 % Original: Manuscript\MLD\manuscript\nature\NCC\R2\code for revision\interannual_biome\plot_trend_vs_interannual_biome.m (data paths updated to I:\Prj; computation unchanged)
 % plot_trend_vs_interannual_biome.m  (2026-11-08, HZ: biome version of figure 03b)
 % Same S8a samples as interannual_biome.m (grid cell x month, both NPP and MLD-NEMO trends p < 0.05, 14 biomes):

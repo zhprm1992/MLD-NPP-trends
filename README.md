@@ -85,7 +85,7 @@ Figure numbers follow the revised manuscript (second revision). Extended Data fi
 | First response, Figs. R3-R10 | same as Supplementary Figs. 1-3 and Extended Data Figs. 3, 4, 7, 8 and 9 | |
 | First response, Fig. R11 | `Response_letter_round1/FigR11_BATS_HOT_distance` | `fig_nitracline_mld_distance_bats_hot.py` |
 | Second response, Fig. R1 | `Response_letter_round2/FigR1_Fig4_at_p0.05` | `run_fig4_p005.m` |
-| Second response, Figs. R2, R4 | `Response_letter_round2/FigR2_R4_interannual_sensitivity` | `plot_trend_vs_interannual_v2.m` (R2), `plot_trend_vs_interannual_biome.m` (R4) |
+| Second response, Figs. R2, R4 | `Response_letter_round2/FigR2_R4_interannual_sensitivity` | R2: `interannual_fig4_samples.m`, `glmm_band_group.m`, `glmm_singular_all_figures.m`, `glmm_band_group_allrows.m`, `plot_glmm_allrows_vs_fig4.m`. R4: `grid_monthly_trends_vgpm_cafe.m`, `interannual_biome.m`, `interannual_biome_allcells.m`, `plot_interannual_biome_allcells.m` (`plot_trend_vs_interannual_biome.m` prints the trend vs interannual counts quoted in the reply) |
 | Second response, Fig. R3 | `Response_letter_round2/FigR3_nitracline_distance` | `plot_distance_r9style_onepanel.m` |
 | Second response, Fig. R5 | `Response_letter_round2/FigR5_Argo_sampling` | `fig_s4_seasonal_nc.m` |
 
