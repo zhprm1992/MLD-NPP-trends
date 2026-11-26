@@ -1,5 +1,5 @@
 % Used for: seasonal latitudinal N2, bvfLat_season_weighted.mat (Supplementary Table 1)
-% Original: Manuscript\MLD\manuscript\nature\NCC\R1\code for revision\correlation_bvf_npp\latSeason_bvf200_weighted_ot.m (data paths updated to I:\Prj; computation unchanged)
+% Original: Manuscript\MLD\manuscript\nature\NCC\R1\code for revision\correlation_bvf_npp\latSeason_bvf200_weighted_ot.m (data paths updated to I:\Prj)
 % latSeason_bvf200_weighted_ot.m
 %
 % Stage 3 of 3: seasonal latitudinal average of the depth-weighted 0-200m
@@ -29,7 +29,8 @@ OUT_DIR = fileparts(mfilename('fullpath'));
 PATH_IN = 'I:\Prj\N2_1M_NEMO\biomes_1M_1dg\bvf200_weighted';
 
 d = load('m_topo.mat');
-topo = d.topo';
+topo = d.topo';                  % (360,180), lon 0.5..359.5
+topo = circshift(topo, 180, 1);  % align with this grid's lon -179.5..179.5
 
 ref = load(fullfile(PATH_IN, '2003', 'bvf200_A EQU.mat'), 'lat','lon');
 lon = ref.lon; lat = ref.lat;
