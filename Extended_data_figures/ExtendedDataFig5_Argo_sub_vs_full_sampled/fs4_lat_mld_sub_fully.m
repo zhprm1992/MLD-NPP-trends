@@ -1,5 +1,5 @@
 % Used for: Extended Data Fig. 5
-% Original: Code\fs4_lat_mld_sub_fully.m (data paths updated to I:\Prj; computation unchanged)
+% Original: Code\fs4_lat_mld_sub_fully.m (data paths updated to I:\Prj)
 % Figure S4
 % Haipeng Zhao
 % 5/5/2026
@@ -10,7 +10,7 @@ clear; clc
 PATH_ARGO  = 'I:\Prj\MLD_ARGO\one';
 PATH_ECCO  = 'I:\Prj\MLD_ECCO\one';
 PATH_NEMO  = 'I:\Prj\MLD_1M_NEMO\one_d03\mld';
-PATH_HYCOM = 'I:\Prj\MLD_HYCOM\one';
+PATH_HYCOM = 'I:\Prj\MLD_HYCOM\one_gat\mld';
 
 lat = ncread("I:\Prj\MLD_ARGO\one\0.03sigmaTheta_ml_2003.nc\ml_20030101-20030131.nc", 'LATITUDE');
 idx = lat <= 60 & lat >= -60;
